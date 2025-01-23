@@ -1,13 +1,13 @@
 package Encapsulation;
+
 import java.util.Scanner;
-//import Encapsulation.Guesser;
-//import Encapsulation.Player;
+
 
 public class Urcher {
 	private int guessedNum;
 	private int player1_guessedNum;
 	private int player2_guessedNum;
-	private int player3_guessedNum;
+//	private int player3_guessedNum;
 	
 	public void setguessedNum(int guessedNum) {
 		this.guessedNum = guessedNum;
@@ -21,19 +21,16 @@ public class Urcher {
 		this.player2_guessedNum = num;
 	}
 	
-	public void setPlayer3GuessedNum(int num) {
-		this.player3_guessedNum = num;
-	}
-	
+//	public void setPlayer3GuessedNum(int num) {
+//		this.player3_guessedNum = num;
+//	}
+//	
 	public void launchIt() {
 		Scanner scan = new Scanner(System.in);
 		Guesser guesser = new Guesser();
 		Player player1 = new Player();
 		Player player2 = new Player();
 //		Player player3 = new Player();
-		
-		
-		
 		
 		System.out.println("Enter the Value to Start the Game Sir");
 		
